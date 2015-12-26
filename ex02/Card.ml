@@ -136,7 +136,7 @@ let toString {value; color}         =
     Printf.sprintf "%s%s" (Value.toString value) (Color.toString color)
 
 let toStringVerbose {value; color}  =
-    Printf.sprintf "Card(%s,%s)" (Value.toStringVerbose value)
+    Printf.sprintf "Card(%s, %s)" (Value.toStringVerbose value)
     (Color.toStringVerbose color)
 (* -------------------------------------------------------------------------- *)
 
