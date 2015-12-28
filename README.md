@@ -14,3 +14,5 @@ We learn about:
 
 The exercices is focused on implementations of some given interfaces and
 signatures.
+
+All exercices are done.
